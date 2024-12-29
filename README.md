@@ -1,2 +1,1 @@
-# homebrew-tap
-Homebrew Tap of Wim Van den Wyngaert
+# Homebrew Tap of Wim Van den Wyngaert
