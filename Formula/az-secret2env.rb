@@ -1,17 +1,17 @@
 class AzSecret2env < Formula
   desc "Execute a program with environment variables temporarily populated by Azure Key Vault secrets"
   homepage "https://github.com/wim-vdw/az-secret2env"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/wim-vdw/az-secret2env/releases/download/v1.0.3/az-secret2env-1.0.3-darwin-arm64.tar.gz"
-    sha256 "dc78dafbdc39dd58c4f36c3038ca6c7b13b52da60c79121c8a3b996d39beb948"
+    url "https://github.com/wim-vdw/az-secret2env/releases/download/v1.0.4/az-secret2env-1.0.4-darwin-arm64.tar.gz"
+    sha256 "14c21b849b0a3ee9fe1b43992c8e335658f7229efbaa0ce9b08c0017ad7a8499"
   end
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/wim-vdw/az-secret2env/releases/download/v1.0.3/az-secret2env-1.0.3-darwin-amd64.tar.gz"
-    sha256 "6e9c273f14b89cb535300514e7e3fb0cb4ce790fe92959743b9b2e9ba2df8c2e "
+    url "https://github.com/wim-vdw/az-secret2env/releases/download/v1.0.4/az-secret2env-1.0.4-darwin-amd64.tar.gz"
+    sha256 "4ab9a5ebfc2d964b9f5c15776b8fa65113e6dd44b457264f017422f11a7878ec"
   end
 
   def install
