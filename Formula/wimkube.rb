@@ -1,4 +1,4 @@
-class WimKube < Formula
+class Wimkube < Formula
   desc "Interactive Kubernetes CLI"
   homepage "https://github.com/wim-vdw/wimkube"
   version "1.0.0"
