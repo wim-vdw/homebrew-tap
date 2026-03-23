@@ -1,17 +1,17 @@
 class Wimkube < Formula
   desc "Interactive Kubernetes CLI"
   homepage "https://github.com/wim-vdw/wimkube"
-  version "1.8.0"
+  version "1.8.1"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/wim-vdw/wimkube/releases/download/v1.8.0/wimkube-1.8.0-darwin-arm64.tar.gz"
-    sha256 "8e687f5789bd1389f5a22bb9398da38fc2a94f535dc0af4c0cfa3ef9855655b1"
+    url "https://github.com/wim-vdw/wimkube/releases/download/v1.8.1/wimkube-1.8.1-darwin-arm64.tar.gz"
+    sha256 "b9ea6d7e02bb4669751fae581e2f7db4edceb725dc30462d56566cb322c634e9"
   end
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/wim-vdw/wimkube/releases/download/v1.8.0/wimkube-1.8.0-darwin-amd64.tar.gz"
-    sha256 "0a82e6f1b8f7948a1dd173011a92d4f78d7a2f24aaca0bfda941a52ebc3d81d3"
+    url "https://github.com/wim-vdw/wimkube/releases/download/v1.8.1/wimkube-1.8.1-darwin-amd64.tar.gz"
+    sha256 "9c8d1413c2af61319d67567bc5c9968d842666ae812a759a7f3e007054026a70"
   end
 
   def install
